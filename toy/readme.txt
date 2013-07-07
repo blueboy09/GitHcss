@@ -26,7 +26,8 @@ The JAR files have to be present in the CLASSPATH, and the native library files 
       
 		print A.apply(MatrixMultiplyToy(B))
 	      	#if the result is [[14,20],[20,29]], then it means your jar file is replaced right.
-                                   
+		
+		MatrixMultiplyToy.SetGPU(True)
 		print X.apply(MatrixMultiplyToy(Y))
 	      	#if the result if [[14.0£¬20.0]£¬[20.0,29.0]], then it means jcuda configure right and you can use it in your HIPE.
 
