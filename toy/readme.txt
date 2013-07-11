@@ -15,7 +15,7 @@ The JAR files have to be present in the CLASSPATH, and the native library files 
 
 	2.2 right click the project "ia.numeric.toolbox.matrix" in the package explore window. Select "Export" and export the jar file. 
 
-	2.3 Replace the crresponding jar file in your own hipe repository by the jar file your export just now.(if you don't do the step 2.1 and 2.2, you can use the 	jar file in this direcroty to replace because of portability of java). 
+	2.3 Replace the crresponding jar file in your own hipe repository by the jar file your export just now.(if you don't do the step 2.1 and 2.2, you can use the jar file in this direcroty to replace because of portability of java). You need to change the names of the jar files in the lib directory to add version tag for HIPE.bat to start correctly. For example ia_numeric.jar may need to change to  ia_numeric_3.21.jar. 
 
 	2.4 Restart HIPE.bat and try the script:
 
