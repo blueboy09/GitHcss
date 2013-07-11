@@ -9,3 +9,5 @@ conditions:
 
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
+
+Other copyright restriction may apply -- see copyright notices in the Herschel Common Science System software. 

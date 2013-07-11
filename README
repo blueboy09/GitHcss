@@ -1,6 +1,6 @@
-NOTE: the work is base on JCUDA, Please download JCUDA first and add its directory in the System variable PATH.
+The work is base on JCUDA, Please download JCUDA first and add its directory in the System variable PATH.
 
-The work's goal is using GPU accelerate HDPS.If you are a beginner, please see "toy" first and you can get the main idea.
+The work's goal is using GPU accelerate Herschel Interactive Processing Environment (HIPE). If you are a beginner, please see "toy" first and you can get the main idea.
 
 
 The File Structure:
@@ -14,10 +14,13 @@ toy: a simple example for testing
 Except time cost classes such as NumCount and TimeCost, here are two operators implented by GPU-- MatrixMultiply and FFT.
 After you use jar files in lib to replace your own jar files, you can use:
       GPUinfo.GetGPUInfo()
-to get the GPU information about your machine. and use:
+to get the GPU information about your machine. The massage is printed in the OS window where HCSS was started. 
+
+Use:
    MatrixMultiply.SetGPU(True/False)
    FFTSet.GPU(True/False)
 to switch between CPU and GPU.
 
-NOTE: you need change the jar files' name in accordance with your own jar files(the only different you need modify is the version tag) for HIPE.bat starting correctly.
+NOTE: You need to change the names of the jar files in the lib directory to add version tag for HIPE.bat to start correctly. For example ia_numeric.jar may need to change to  ia_numeric_3.21.jar. 
 
+Some feedback to me, Yifei Jin <m-astro@163.com> and Professor Maohai Huang at NAOC <mhaing@nao.cas.cn>.
