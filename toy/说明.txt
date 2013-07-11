@@ -34,7 +34,9 @@ C:\Program Files\Java\jdk1.6.0_38\libso\jcublas-0.5.0.jar;C:\Program Files\Java\
       
 	      print A.apply(MatrixMultiplyToy(B))
 	      #结果为[[14, 20], [20, 29]]，则说明jar包替换正确
-                                   
+
+
+	      MatrixMultiplyToy.SetGPU(True)                                   
 	      print X.apply(MatrixMultiplyToy(Y))
 	      #结果为[[14, 20], [20, 29]]，则说明jcuda可以使用，GPU运行正确
       
