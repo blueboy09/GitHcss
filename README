@@ -23,4 +23,7 @@ to switch between CPU and GPU.
 
 NOTE: You need to change the names of the jar files in the lib directory to add version tag for HIPE.bat to start correctly. For example ia_numeric.jar may need to change to  ia_numeric_3.21.jar. 
 
+We have used the software accelerate M-82 spectroscopy scan map pipeline, and get almost 2 times speed up. Your can see my undergraduate thesis (see the yfjinThesis.pdf file in the directory) for the detail.
+
 Some feedback to me, Yifei Jin <m-astro@163.com> and Professor Maohai Huang at NAOC <mhaing@nao.cas.cn>.
+
