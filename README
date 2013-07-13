@@ -1,4 +1,7 @@
-The work is base on JCUDA, Please download JCUDA first and add its directory in the System variable PATH.
+The work is base on JCUDA, Please download JCUDA first and add its directory in the System variable PATH. 
+The work is compiled by java "1.6.0_38" and  suitable for HIPE 10.0 (64 bit). 
+
+
 
 The work's goal is using GPU accelerate Herschel Interactive Processing Environment (HIPE). If you are a beginner, please see "toy" first and you can get the main idea.
 
@@ -25,5 +28,5 @@ NOTE: You need to change the names of the jar files in the lib directory to add 
 
 We have used the software accelerate M-82 spectroscopy scan map pipeline, and get almost 2 times speed up. Your can see my undergraduate thesis (see the yfjinThesis.pdf file in the directory) for the detail.
 
-Some feedback to me, Yifei Jin <m-astro@163.com> and Professor Maohai Huang at NAOC <mhaing@nao.cas.cn>.
+Some feedback to me, Yifei Jin <m-astro@163.com> and Professor Maohai Huang at NAOC <mhuang@nao.cas.cn>.
 
